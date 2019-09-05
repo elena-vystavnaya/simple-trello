@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/elena-vystavnaya/simple-trello/precache-manifest.3a93ed49872568a76fdf2a1f6732496a.js"
+  "/simple-trello/precache-manifest.b2f90f50c33ba01f3995ed7f683dc65b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/elena-vystavnaya/simple-trello/index.html", {
+workbox.routing.registerNavigationRoute("/simple-trello/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
